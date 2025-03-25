@@ -84,6 +84,9 @@ body {
 .about-games {
     background-color: rgba(32, 32, 39, 1);
 }
+.about-games__content {
+    margin-top: 94px;
+}
 .about-games_background {
     padding: 94px 0 96px 0;
     background: url('../src/img/animation_icons/about_game_star.png') no-repeat top right,
