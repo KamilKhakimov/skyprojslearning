@@ -84,12 +84,15 @@ body {
 .about-games {
     background-color: rgba(32, 32, 39, 1);
 }
-.about-games__content {
-    margin-top: 94px;
+.about-games__item {
+    height: fit-content;
 }
-.about-games_background {
+.card-margin__top {
+    margin-top: 32px;
+}
+.about-games__background {
     padding: 94px 0 96px 0;
-    background: url('../src/img/animation_icons/about_game_star.png') no-repeat top right,
+    background: url('../src/img/animation_icons/about_game_star.png') no-repeat 100% 10%,
     url('../src/img/animation_icons/about-games_star_one.png') no-repeat 1% 50%,
     url('../src/img/animation_icons/about-games_star_two.png') no-repeat 3% 58%;
 }
@@ -111,9 +114,9 @@ body {
     color: white;
 }
 .about-games__cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
 }
 .about-games__each-card {
     background-color: white;
@@ -124,7 +127,7 @@ body {
     border-radius: 30px; 
 }
 .games-card__content {
-    padding: 40px 32px 40px 32px;
+    padding: 40px 42px 40px 32px;
 }
 .games-card__text {
     font-weight: 500;
