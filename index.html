@@ -24,8 +24,8 @@
     <main class="main">
         <div class="banner">
             <div class="banner__background">
-                <div class="container">
-                    <div class="banner-content">
+                <div class="banner__container container">
+                    <div class="banner__content">
                         <h1 class="banner__title">
                             Добро пожаловать на мой сайт мини-игр
                         </h1>
@@ -55,21 +55,21 @@
                 <img src="./src/img/Star.png" alt="Звезда">
             </div>
         </div>
-        <section class="about-games">
-            <div class="about-games__background">
-                <div class="container">
-                    <div class="about-games__content">
-                        <h2 class="about-games__title main-subtitle" id="games">
+        <section class="about">
+            <div class="about__background">
+                <div class="about__container container">
+                    <div class="about__content">
+                        <h2 class="about__title main-subtitle" id="games">
                             Об играх
                         </h2>
-                        <p class="about-games__text">
+                        <p class="about__text">
                             В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть
                             каждый.<br>
                             Все игры доступны для пользования.
                         </p>
-                        <ul class="about-games__cards">
-                            <li class="about-games__item">
-                                <article class="about-games__each-card games-card">
+                        <div class="about__cards">
+                            <a href="#" class="about__item">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/game_one.jpg" alt="first_game">
                                     </div>
@@ -78,9 +78,9 @@
                                         <h3 class="games-card__title">Угадай число</h3>
                                     </div>
                                 </article>
-                            </li>
-                            <li class="about-games__item">
-                                <article class="about-games__each-card games-card">
+                            </a>
+                            <a href="#" class="about__item">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/games_two.jpg" alt="first_game">
                                     </div>
@@ -89,9 +89,9 @@
                                         <h3 class="games-card__title">Простая арифметика</h3>
                                     </div>
                                 </article>
-                            </li>
-                            <li class="about-games__item">
-                                <article class="about-games__each-card games-card">
+                            </a>
+                            <a href="#" class="about__item">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/games_three.jpg" alt="first_game">
                                     </div>
@@ -100,9 +100,9 @@
                                         <h3 class="games-card__title">Переверни текст</h3>
                                     </div>
                                 </article>
-                            </li>
-                            <li class="about-games__item">
-                                <article class="about-games__each-card games-card">
+                            </a>
+                            <a href="#" class="about__item">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/games_four.jpg" alt="first_game">
                                     </div>
@@ -111,9 +111,9 @@
                                         <h3 class="games-card__title">Камень, ножницы, бумага</h3>
                                     </div>
                                 </article>
-                            </li>
-                            <li class="about-games__item card-margin__top">
-                                <article class="about-games__each-card games-card">
+                            </a>
+                            <a href="#" class="about__item about__item-margin">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/games_five.jpg" alt="first_game">
                                     </div>
@@ -122,9 +122,9 @@
                                         <h3 class="games-card__title">Простая викторина</h3>
                                     </div>
                                 </article>
-                            </li>
-                            <li class="about-games__item">
-                                <article class="about-games__each-card games-card">
+                            </a>
+                            <a href="#" class="about__item">
+                                <article class="about__each-card games-card">
                                     <div class="games-card__img">
                                         <img src="./src/img/games_six.jpg" alt="first_game">
                                     </div>
@@ -133,11 +133,10 @@
                                         <h3 class="games-card__title">Генератор случайных цветов</h3>
                                     </div>
                                 </article>
-                            </li>
-                        </ul>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
 </body>
