@@ -68,4 +68,31 @@
     .scroll-bar__text {
         font-size: 16px;
     }
+    .banner__content {
+        text-align: center;
+    }
 }
+
+/* about games */
+
+@media (max-width: 1300px) {
+    .about__cards {
+        row-gap: 32px;
+    }
+}
+@media (max-width: 787px) {
+    .about__cards {
+        justify-content: center;
+    }
+    .about__title {
+        font-size: 40px;
+    }
+    .about__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about__item-margin {
+        margin-top: 0;
+    }
+}
+/* about games */
