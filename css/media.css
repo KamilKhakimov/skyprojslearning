@@ -62,6 +62,9 @@
 }
 /* Banner */ 
 @media (max-width: 525px) {
+    .scroll-bar {
+        padding: 16px 0;
+    }
     .scroll-bar__content {
         gap: 27px;
     }
