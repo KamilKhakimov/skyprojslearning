@@ -44,7 +44,7 @@ switch (monthNumber) {
         console.log('зима');
         break;
     case 3:
-        console.log('зима');
+        console.log('весна');
         break;
     case 4:
         console.log('весна');
@@ -53,7 +53,7 @@ switch (monthNumber) {
         console.log('весна');
         break;
     case 6:
-        console.log('весна');
+        console.log('лето');
         break;
     case 7:
         console.log('лето');
@@ -62,7 +62,7 @@ switch (monthNumber) {
         console.log('лето');
         break;
     case 9:
-        console.log('лето');
+        console.log('осень');
         break;
     case 10:
         console.log('осень');
@@ -71,7 +71,7 @@ switch (monthNumber) {
         console.log('осень');
         break;
     case 12:
-        console.log('осень');
+        console.log('зима');
         break;
     default:
         console.log('Такого месяца не бывает <3');
