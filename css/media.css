@@ -160,6 +160,9 @@
         font-size: 32px;
         line-height: 120%;
     }
+    .mini-games__title {
+        margin-bottom: 48px;
+    }
     .item__title,
     .item__text {
         text-align: left;
