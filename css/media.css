@@ -215,3 +215,16 @@
     }
 }
 /* footer */
+/* Удаляем элементы наведения начиная с планшетной версиеи */
+@media (max-width: 768px) {
+    .banner__btn:hover,
+    .item__btn:hover {
+        color: white; /* Сохраняет оригинальный цвет текста */
+        background-color: black; /* Сохраняет оригинальный фоновый цвет */
+        cursor: default; /* Возвращает стандартный курсор */
+        border: inherit;
+    }
+    .about__each-card:hover {
+        transform: scale(1);
+    }
+}
